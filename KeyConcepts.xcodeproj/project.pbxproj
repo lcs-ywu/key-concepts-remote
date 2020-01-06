@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		81E409C223C3C31A00B17040 /* KeyConcepts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = KeyConcepts; sourceTree = "<group>"; };
+		81FE5FAE23C3CA0F000BE942 /* KeyConcepts.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = KeyConcepts.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		81389FDD1EC7BF7D00ACBE02 = {
 			isa = PBXGroup;
 			children = (
-				81E409C223C3C31A00B17040 /* KeyConcepts */,
+				81FE5FAE23C3CA0F000BE942 /* KeyConcepts.playground */,
 			);
 			sourceTree = "<group>";
 		};
