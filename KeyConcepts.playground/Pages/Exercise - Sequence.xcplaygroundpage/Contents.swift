@@ -28,22 +28,28 @@ import PlaygroundSupport
 let canvas = Canvas(width: 400, height: 600)
 
 // COLORS
-let grey = Color(hue: 219, saturation: 1, brightness: 82, alpha: 100)
-let lightBlue = Color(hue: 205, saturation: 74, brightness: 77, alpha: 75)
-let lightRed = Color(hue: 4, saturation: 78, brightness: 92, alpha: 100)
+let grey = Color(hue: 220, saturation: 1, brightness: 82, alpha: 100)
+let lightBlue = Color(hue: 206, saturation: 58, brightness: 80, alpha: 75)
+let lightRed = Color(hue: 6, saturation: 98, brightness: 99, alpha: 100)
 
 // HINT: Remember that all shapes have a fill and a border.
 //       You can turn off the fill or border if desired.
 
-// No border, has a fill
-canvas.drawShapesWithBorders = false
-canvas.drawShapesWithFill = true
-canvas.drawEllipse(at: Point(x: 100, y: 100), width: 50, height: 75)
+canvas.fillColor=grey
+canvas.drawRectangle(at: Point(x:0, y:0), width:400, height:600)
 
-// Has a border, no fill
+// No border, has a fill
+
 canvas.drawShapesWithBorders = true
 canvas.drawShapesWithFill = false
-canvas.drawEllipse(at: Point(x: 200, y: 100), width: 50, height: 75)
+canvas.borderColor=lightRed
+canvas.drawEllipse(at: Point(x: 200, y: 200), width: 275, height: 275, borderWidth: 100)
+
+// Has a border, no fill
+canvas.borderColor=lightBlue
+canvas.drawShapesWithBorders = true
+canvas.drawShapesWithFill = false
+canvas.drawEllipse(at: Point(x: 350, y: 200), width: 275, height: 275, borderWidth: 100)
 
 
 /*:
