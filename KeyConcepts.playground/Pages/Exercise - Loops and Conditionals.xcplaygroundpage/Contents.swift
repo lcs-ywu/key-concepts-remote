@@ -65,7 +65,7 @@ canvas.drawText(message: "camaro's cafe", at: Point(x:275, y:570), size: 10)
 canvas.drawText(message: "halifax", at: Point(x:275, y:555), size: 10)
 canvas.drawText(message: "nova scotia", at: Point(x:275, y:540), size: 10)
 canvas.drawText(message: "sloan", at: Point(x:150, y:400), size: 95)
-
+//a
 
 
 //Adding assitant griddings
