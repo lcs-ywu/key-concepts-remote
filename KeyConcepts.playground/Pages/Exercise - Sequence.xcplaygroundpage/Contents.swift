@@ -31,7 +31,6 @@ let canvas = Canvas(width: 400, height: 600)
 let grey = Color(hue: 220, saturation: 1, brightness: 82, alpha: 100)
 let lightBlue = Color(hue: 206, saturation: 58, brightness: 80, alpha: 75)
 let lightRed = Color(hue: 6, saturation: 98, brightness: 99, alpha: 100)
-
 // HINT: Remember that all shapes have a fill and a border.
 //       You can turn off the fill or border if desired.
 
@@ -51,13 +50,7 @@ canvas.drawShapesWithBorders = true
 canvas.drawShapesWithFill = false
 canvas.drawEllipse(at: Point(x: 350, y: 200), width: 275, height: 275, borderWidth: 100)
 
-for m in 1...7 {
-    canvas.drawLine(from: Point(x:m*50, y:0), to: Point(x:m*50, y: 600))
-}
 
-for n in 1...11 {
-    canvas.drawLine(from: Point(x:0,y:n*50), to: Point(x:400,y:n*50))
-}
 
 canvas.drawText(message: "the jesus", at: Point(x:10,y:440), size: 40, kerning: 0.75)
 canvas.drawText(message: "and mary chain", at: Point(x:10,y:395), size: 40, kerning: 0.75)
@@ -74,6 +67,13 @@ canvas.drawText(message: "hollywood palladium", at: Point(x:275, y:570), size: 1
 canvas.drawText(message: "6215 sunset blvd.", at: Point(x:275, y:555), size: 10)
 canvas.drawText(message: "los angeles, california", at: Point(x:275, y:540), size: 10)
 
+for m in 1...7 {
+    canvas.drawLine(from: Point(x:m*50, y:0), to: Point(x:m*50, y: 600))
+}
+
+for n in 1...11 {
+    canvas.drawLine(from: Point(x:0,y:n*50), to: Point(x:400,y:n*50))
+}
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
