@@ -66,6 +66,7 @@ canvas.drawText(message: "halifax", at: Point(x:275, y:555), size: 10)
 canvas.drawText(message: "nova scotia", at: Point(x:275, y:540), size: 10)
 canvas.drawText(message: "sloan", at: Point(x:150, y:400), size: 95)
 
+// R. Gordon test
 
 //Adding assitant griddings
 for m in 1...7 {
