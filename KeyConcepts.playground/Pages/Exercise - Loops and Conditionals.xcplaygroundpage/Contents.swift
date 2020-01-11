@@ -68,7 +68,7 @@ canvas.drawText(message: "sloan", at: Point(x:150, y:400), size: 95)
 
 
 
-
+//Adding assitant griddings
 for m in 1...7 {
     canvas.drawLine(from: Point(x:m*50, y:0), to: Point(x:m*50, y: 600))
 }
